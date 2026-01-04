@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Médicale</title>
+    <link rel="stylesheet" href="Departcss.css"> <!-- Lien vers votre fichier CSS -->
+</head>
+<body>
+    <header>
+        <img src="C:\Users\hp\Downloads\site1.jpg " alt="OEF Medical Center " height="40px" width="40px">
+        <div class="header-content">
+            <h1>OEF MEDICAL CENTER</h1>
+            <nav>
+                <ul>
+                    <li><a href="exam final.html">Accueil</a></li>
+                    <li><a href="depart.html">Departements</a></li>
+                    <li><a href="horr.html">Horaires</a></li>
+                    <li><a href="about.html">À propos de nous</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <main>
+        <section>
+            <h1>Consultation avec Dr. Paul Dupont</h1>
+            <img src="c:\Users\hp\Downloads\doctor.jpeg" alt="Dr. Paul Dupont" style="width:200px;height:auto;">
+            <h2>À propos du Docteur</h2>
+            <p>Dr. Paul Dupont est un médecin généraliste avec plus de 10 ans d'expérience dans le domaine de la santé. Il est diplômé de l'Université de Médecine de Paris et est très apprecié et recommandé.</p>
+        </section>
+
+        <section>
+            <h2>Informations sur la consultation</h2>
+            <ul>
+                <li><strong>Prix de consultation :</strong> 50 €</li>
+                <li><strong>Durée de consultation :</strong> 30 minutes</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Prendre rendez-vous</h2>
+            <form action="submit" method="POST">
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="date">Date souhaitée :</label><br>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <input type="submit" value="Prendre rendez-vous">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cabinet Médical Dr. Paul Dupont. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

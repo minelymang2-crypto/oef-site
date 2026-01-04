@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   
+main{
+    background-image:url("C:/Users/hp/Downloads/site.jpg");
+    height: 90vh; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: white;  
+}
+.slogan{
+    text-align: left;
+    color: #333;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+header {
+    background-color:rgb(121, 179, 123);
+    
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section principale - grille des services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.service-card a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.service-card a:hover {
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #1e6d2a;
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0;
+   
+   
+}
+
+.pied.fixed {
+    position: fixed;
+}
+}

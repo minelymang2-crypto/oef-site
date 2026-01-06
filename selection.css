@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("C:/Users/hp/Downloads/site.jpg");
+    height: 150vh; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;   
+}
+header {
+    background-color:rgb(121, 179, 123);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    text-size-adjust: 50px;
+   
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.carte {
+    color:black;
+    padding: 20px; 
+    height: 400px; 
+    width: 300px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    line-height: 1.6;
+    text-decoration: underline;
+}
+}
+
+
+.contact {
+    padding: 20px;
+    margin: 15px;
+    width: 500px;
+
+}
+.contact2 {
+    padding: 20px;
+    margin: 15px;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ gap: 20px;
+
+}
+.info {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:black; 
+    text-align: center;
+}
